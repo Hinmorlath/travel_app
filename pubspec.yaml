@@ -30,6 +30,9 @@ environment:
 # versions available, run `flutter pub outdated`.
 assets:
   - assets/img/profile.jpg
+  - assets/img/p1.jpg
+  - assets/img/p2.jpg
+  - assets/img/p3.jpg
 dependencies:
   flutter:
     sdk: flutter

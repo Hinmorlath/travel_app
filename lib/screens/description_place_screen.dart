@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_app5a/screens/review.dart';
+import 'package:travel_app5a/screens/reviews.dart';
 
 class DescriptionPlaceScreen extends StatelessWidget {
-  const DescriptionPlaceScreen({super.key});
+  final String namePlace;
+  final String descriptionPlace;
+  final int stars;
+
+  const DescriptionPlaceScreen(
+      {super.key,
+      required this.namePlace,
+      required this.descriptionPlace,
+      required this.stars});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +26,7 @@ class DescriptionPlaceScreen extends StatelessWidget {
 
     final star = Container(
       margin: const EdgeInsets.only(
-        top: 323.0,
+        top: 300.0,
         right: 3.0,
       ),
       child: const Icon(
@@ -30,12 +39,12 @@ class DescriptionPlaceScreen extends StatelessWidget {
       children: [
         Container(
           margin: const EdgeInsets.only(
-            top: 320.0,
+            top: 300.0,
             left: 20.0,
             right: 20.0,
           ),
-          child: const Text(
-            "Duwili Ella",
+          child: Text(
+            namePlace,
             style: titleStyle,
             textAlign: TextAlign.left,
           ),
@@ -54,7 +63,7 @@ class DescriptionPlaceScreen extends StatelessWidget {
         right: 20.0,
       ),
       child: Text(
-        descriptionText,
+        descriptionPlace,
         style: GoogleFonts.lato(
           textStyle: const TextStyle(
             fontSize: 16,
@@ -67,7 +76,6 @@ class DescriptionPlaceScreen extends StatelessWidget {
       children: [
         titleAndStars,
         description,
-        const Review(),
       ],
     );
   }
