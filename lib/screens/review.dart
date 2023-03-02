@@ -17,10 +17,10 @@ class Review extends StatelessWidget {
         shape: BoxShape.circle,
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: 
+          image: AssetImage(pathProfile),
         ),
       ),
     );
-    return Container();
+    return profilePic;
   }
 }
