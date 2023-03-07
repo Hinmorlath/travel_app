@@ -8,6 +8,14 @@ class ButtonNavigate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      onTap: () {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Navegando'),
+            backgroundColor: Color.fromARGB(255, 93, 65, 89),
+          ),
+        );
+      },
       child: Container(
         margin: const EdgeInsets.only(
           top: 30.0,
