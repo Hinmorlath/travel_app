@@ -7,7 +7,7 @@ class SearchPlaceScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.amber,
+      color: Color.fromARGB(255, 225, 86, 213),
       child: Center(
         child: Text(
           'Búsqueda de lugares interesantes',

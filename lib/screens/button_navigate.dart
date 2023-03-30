@@ -12,7 +12,7 @@ class ButtonNavigate extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text('Navegando'),
-            backgroundColor: Color.fromARGB(255, 93, 65, 89),
+            backgroundColor: Color.fromARGB(231, 4, 153, 29),
           ),
         );
       },
@@ -26,10 +26,10 @@ class ButtonNavigate extends StatelessWidget {
         width: 180.0,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30.0),
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: [
-              Color(0xFF4268D3),
-              Color(0xFF584CD1),
+              Color.fromARGB(255, 227, 55, 233),
+              Color.fromARGB(255, 198, 66, 246),
             ],
             begin: FractionalOffset(0.2, 0.0),
             end: FractionalOffset(1.0, 0.6),

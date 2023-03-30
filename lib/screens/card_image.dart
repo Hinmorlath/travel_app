@@ -15,25 +15,25 @@ class CardImage extends StatelessWidget {
         left: 20.0,
       ),
       decoration: BoxDecoration(
-        image: DecorationImage(
-          fit: BoxFit.cover,
-          image: AssetImage(pathImage),
-        ),
-        borderRadius: const BorderRadius.all(Radius.circular(10.0)),
-        boxShadow: const <BoxShadow>[
-          BoxShadow(
-            color: Color.fromARGB(157, 57, 56, 56),
-            blurRadius: 15.0,
-            offset: Offset(0.0, 7.0),
-          )
-        ],
-      ),
+          image: DecorationImage(
+            fit: BoxFit.cover,
+            image: AssetImage(pathImage),
+          ),
+          borderRadius: const BorderRadius.all(Radius.circular(10.0)),
+          boxShadow: const <BoxShadow>[
+            BoxShadow(
+              color: Colors.black38,
+              blurRadius: 15.0,
+              offset: Offset(0.0, 7.0),
+            )
+          ]),
     );
+
     return Stack(
       alignment: const Alignment(0.9, 1.1),
       children: [
         card,
-        SmallButton(),
+        const SmallButton(),
       ],
     );
   }

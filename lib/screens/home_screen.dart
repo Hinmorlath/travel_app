@@ -4,9 +4,9 @@ import 'header.dart';
 import 'reviews.dart';
 
 class HomeScreen extends StatelessWidget {
-  final namePlace = 'Duwili Ella';
+  final namePlace = 'Duwili';
   final descriptionText =
-      'Lorem magna aliquip ipsum fugiat velit nostrud consectetur commodo. Aliquip eu dolor incididunt ut exercitation qui adipisicing. Cupidatat ad in id nulla aute id aliqua do est cillum id. \n\nLaborum Lorem eu Lorem ea dolor duis qui nostrud aliqua nisi eu reprehenderit. Duis aliqua magna pariatur officia ea nisi eu irure qui. Excepteur esse duis ad ad ea laborum voluptate in est occaecat ea. In sint aliqua consequat mollit sint ullamco tempor veniam labore id id voluptate qui.';
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum';
   const HomeScreen({super.key});
 
   @override

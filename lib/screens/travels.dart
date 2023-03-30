@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:travel_app5a/screens/button_navigate.dart';
-import 'package:travel_app5a/screens/home_screen.dart';
+import 'package:travel_app5a/screens/profile_screen.dart';
+import 'package:travel_app5a/screens/search_place_screen.dart';
 
-import 'profile_screen.dart';
-import 'search_place_screen.dart';
+import 'home_screen.dart';
 
 class Travels extends StatefulWidget {
   const Travels({super.key});
@@ -31,31 +30,30 @@ class _TravelsState extends State<Travels> {
     return Scaffold(
       body: widgetsBarChildren[indexTap],
       bottomNavigationBar: Theme(
-        data: Theme.of(context).copyWith(
-          canvasColor: Colors.white,
-          primaryColor: Colors.purpleAccent,
-        ),
-        child: BottomNavigationBar(
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
-          onTap: onTapTapped,
-          currentIndex: indexTap,
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.search),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: '',
-            )
-          ],
-        ),
-      ),
+          data: Theme.of(context).copyWith(
+            canvasColor: Colors.white,
+            primaryColor: Colors.purpleAccent,
+          ),
+          child: BottomNavigationBar(
+            showSelectedLabels: false,
+            showUnselectedLabels: false,
+            onTap: onTapTapped,
+            currentIndex: indexTap,
+            items: const [
+              BottomNavigationBarItem(
+                icon: Icon(Icons.home),
+                label: '',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.search),
+                label: '',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.person),
+                label: '',
+              ),
+            ],
+          )),
     );
   }
 }

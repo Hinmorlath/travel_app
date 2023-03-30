@@ -8,24 +8,24 @@ class Reviews extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
+      children: const [
         Review(
-            pathProfile: 'img/profile.jpg',
+            pathProfile: 'assets/img/profile.jpg',
             user: 'Filomena Acosta',
             details: '1 review, 5 photos',
-            comments: "This is an amazing place Sr Lankra"),
+            comments: "This is an amazing place Sri Lanka"),
         Review(
-            pathProfile: 'img/p1.jpg',
+            pathProfile: 'assets/img/m1.jpg',
             user: 'Alexa Martinez',
             details: '10 review, 5 photos',
-            comments: "Beautiful place in my heart"),
+            comments: "Beutiful place in my heart"),
         Review(
-            pathProfile: 'img/p2.jpg',
-            user: 'Alejandra Avalos',
+            pathProfile: 'assets/img/m2.jpg',
+            user: 'Alejangra Avalos',
             details: '11 review, 10 photos',
             comments: "This is an amazing place"),
         Review(
-            pathProfile: 'img/p3.jpg',
+            pathProfile: 'assets/img/m3.jpg',
             user: 'Guillermo Zarate',
             details: '20 review, 20 photos',
             comments: "Kind people"),

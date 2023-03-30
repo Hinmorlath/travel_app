@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_app5a/screens/button_navigate.dart';
-import 'package:travel_app5a/screens/review.dart';
-import 'package:travel_app5a/screens/reviews.dart';
 
 class DescriptionPlaceScreen extends StatelessWidget {
   final String namePlace;
@@ -23,11 +21,11 @@ class DescriptionPlaceScreen extends StatelessWidget {
     );
 
     const descriptionText =
-        'Aute dolor sit consectetur irure ex mollit. Est nostrud excepteur duis quis cupidatat ullamco velit deserunt deserunt. Lorem aute reprehenderit fugiat ut dolor laboris voluptate exercitation Lorem cillum veniam officia. Anim irure qui qui labore amet est voluptate reprehenderit. Mollit duis pariatur excepteur dolor exercitation excepteur reprehenderit officia et. Elit minim reprehenderit labore est fugiat duis proident. Sunt dolor officia ex reprehenderit reprehenderit est est. \n\n Aute non esse anim eu aute quis incididunt amet irure ad. Et ut sunt aliquip et do. Sint fugiat amet nulla laborum exercitation laborum. Irure nisi commodo occaecat consequat occaecat. Aliquip id excepteur nostrud occaecat reprehenderit veniam consectetur esse elit. Non aliquip anim incididunt exercitation pariatur ad irure elit adipisicing officia et.';
+        'Enim ad irure Lorem ipsum aliquip cupidatat labore mollit. Anim voluptate pariatur proident ad excepteur. Dolor exercitation labore nostrud anim excepteur do. Fugiat laborum aliquip consectetur pariatur quis labore dolore exercitation do. Amet voluptate veniam cupidatat in et aliqua nulla consectetur.\n\nAmet occaecat nisi do labore in amet non mollit minim culpa elit ad sunt laborum. Proident duis est nostrud dolor cupidatat nisi veniam irure laboris velit amet. Cillum culpa qui consectetur laboris consequat. Deserunt elit excepteur nostrud commodo adipisicing exercitation tempor consequat. Aliquip sint commodo dolor laborum. Consectetur commodo tempor amet aute elit elit minim ad. Aliqua ad proident tempor culpa.';
 
     final star = Container(
       margin: const EdgeInsets.only(
-        top: 300.0,
+        top: 400.0,
         right: 3.0,
       ),
       child: const Icon(
@@ -40,7 +38,7 @@ class DescriptionPlaceScreen extends StatelessWidget {
       children: [
         Container(
           margin: const EdgeInsets.only(
-            top: 300.0,
+            top: 400.0,
             left: 20.0,
             right: 20.0,
           ),
@@ -50,6 +48,7 @@ class DescriptionPlaceScreen extends StatelessWidget {
             textAlign: TextAlign.left,
           ),
         ),
+        star,
         star,
         star,
         star,

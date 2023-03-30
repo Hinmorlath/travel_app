@@ -33,6 +33,10 @@ assets:
   - assets/img/p1.jpg
   - assets/img/p2.jpg
   - assets/img/p3.jpg
+  - assets/img/fondo1.jpg
+  - assets/img/fondo2.jpg
+  - assets/img/fondo3.jpg
+  - assets/img/Vivotaku2.png
 dependencies:
   flutter:
     sdk: flutter

@@ -20,12 +20,12 @@ class _SmallButtonState extends State<SmallButton> {
   }
 
   @override
-  Widget build(BuildContext cotext) {
+  Widget build(BuildContext context) {
     return FloatingActionButton(
       onPressed: onPressedFav,
-      backgroundColor: Color.fromARGB(255, 218, 40, 17),
+      backgroundColor: const Color.fromARGB(198, 222, 18, 120),
       mini: true,
-      tooltip: 'Fav',
+      tooltip: 'Me gusta',
       child: Icon(pressed ? Icons.favorite : Icons.favorite_border),
     );
   }

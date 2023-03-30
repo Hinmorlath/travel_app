@@ -8,8 +8,8 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [
-        GradientBack(title: 'Populares'),
+      children: const [
+        GradientBack(title: 'Popular'),
         CardImageList(),
       ],
     );
